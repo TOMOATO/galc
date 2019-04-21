@@ -24,6 +24,7 @@ func main() {
 
 // calc関数はcommand次第で
 func calc(command, lhstr, rhstr string) (result int, err error) {
+	//komento ireteyaru ze!
 	// 文字列で与えられたlhsとrhsを数値に変換し，エラーチェック
 	lhs, err1 := convert(lhstr)
 	rhs, err2 := convert(rhstr)
