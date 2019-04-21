@@ -11,3 +11,4 @@ func validate(args []string) error {
 	}
 	return nil
 }
+
